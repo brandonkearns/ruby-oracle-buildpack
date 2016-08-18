@@ -7,5 +7,7 @@ require 'cloud_foundry/language_pack/ruby_version'
 require 'cloud_foundry/language_pack/fetcher'
 require 'cloud_foundry/language_pack/helpers/readline_symlink'
 require 'cloud_foundry/language_pack/helpers/node_installer'
+require 'cloud_foundry/language_pack/helpers/oci_installer'
+
 
 ENV['STACK'] ||= ''
