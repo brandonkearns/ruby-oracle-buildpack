@@ -1,3 +1,6 @@
 [submodule "compile-extensions"]
 	path = compile-extensions
 	url = https://github.com/cloudfoundry/compile-extensions
+[submodule "compile-extensions/compile-extensions"]
+	path = compile-extensions/compile-extensions
+	url = https://github.com/cloudfoundry/compile-extensions.git
